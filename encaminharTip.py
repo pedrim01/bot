@@ -42,7 +42,7 @@ async def handler(event):
 # Inicie o cliente
 async def start_bot():
     try:
-        await client.start()
+        await client.start(bot_token=TOKEN)
         logger.info("Client is running. Listening for messages...")
         await client.run_until_disconnected()
 
