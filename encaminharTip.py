@@ -6,18 +6,18 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Substitua pelos valores da sua aplicação
-# api_id = 25397054
-# api_hash = "4e82e1c81cd168c2595c909f6e8aa8d8"
-# TOKEN = "7190389378:AAGDBeyYWjPc64NbfHbfeOs5zk2KYl27HRg"
-
 
 source_channel_username = -1002094462215
 target_channel_username = -1002170325171
 
-api_id = 22065622
-api_hash = "594fa52ca7a512dee8287bcf885d3852"
-TOKEN = "7282540350:AAErCunUDUt0Fd5-61jXGA6FlSEgZjZLUcg"
+# api_id = 22065622
+# api_hash = "594fa52ca7a512dee8287bcf885d3852"
+# TOKEN = "7282540350:AAErCunUDUt0Fd5-61jXGA6FlSEgZjZLUcg"
+
+
+api_id = 25397054
+api_hash = "4e82e1c81cd168c2595c909f6e8aa8d8"
+TOKEN = "7190389378:AAGDBeyYWjPc64NbfHbfeOs5zk2KYl27HRg"
 
 # Crie uma instância do cliente
 client = TelegramClient("aa_Tips", api_id, api_hash)
